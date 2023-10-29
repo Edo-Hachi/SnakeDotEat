@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c8mlqe66d0ypr"
+path="res://.godot/imported/SnakeHead_00.obj-e14edba654a2ff325a6945900212898f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SnakeHead_00.obj-e14edba654a2ff325a6945900212898f.mesh"]
+
+source_file="res://Scenes/Snake/Model/SnakeHead_00.obj"
+dest_files=["res://.godot/imported/SnakeHead_00.obj-e14edba654a2ff325a6945900212898f.mesh", "res://.godot/imported/SnakeHead_00.obj-e14edba654a2ff325a6945900212898f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

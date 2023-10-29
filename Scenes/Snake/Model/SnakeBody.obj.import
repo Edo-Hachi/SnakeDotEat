@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bbogthu6bq8yi"
+path="res://.godot/imported/SnakeBody.obj-14cce931d495686955e5e88e8489eab6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SnakeBody.obj-14cce931d495686955e5e88e8489eab6.mesh"]
+
+source_file="res://Scenes/Snake/Model/SnakeBody.obj"
+dest_files=["res://.godot/imported/SnakeBody.obj-14cce931d495686955e5e88e8489eab6.mesh", "res://.godot/imported/SnakeBody.obj-14cce931d495686955e5e88e8489eab6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

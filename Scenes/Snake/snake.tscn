@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://cxahiv0wbr3qq"]
+
+[ext_resource type="ArrayMesh" uid="uid://c8mlqe66d0ypr" path="res://Scenes/Snake/Model/SnakeHead_00.obj" id="1_2vh7n"]
+[ext_resource type="Script" path="res://Scenes/Snake/snake.gd" id="1_plobt"]
+[ext_resource type="ArrayMesh" uid="uid://ypxeid6jyv2" path="res://Scenes/Snake/Model/SnakeHead_02.obj" id="2_b5bh8"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_jb4tj"]
+radius = 1.38918
+height = 2.77836
+
+[node name="Snake" type="CharacterBody3D"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+script = ExtResource("1_plobt")
+
+[node name="SnakeHead00" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("1_2vh7n")
+
+[node name="SnakeHead02" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_b5bh8")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_jb4tj")
+
+[node name="AnimationTimer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="timeout" from="AnimationTimer" to="." method="_on_animation_timer_timeout"]
